@@ -53,5 +53,3 @@ export default async function setup(phase) {
   }
   return nextConfig
 }
-
-export default nextConfig;
