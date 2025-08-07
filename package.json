@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "tsx scripts/db-init.mjs && next dev",
     "build": "tsx scripts/db-init.mjs -P && next build",
+    "export":"next export",
     "start": "tsx scripts/db-init.mjs -P && next start",
     "lint": "next lint",
     "test": "vitest",
