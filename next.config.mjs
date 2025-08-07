@@ -26,6 +26,7 @@ export default async function setup(phase) {
   const nextConfig = {
     output:'export',
     images: {
+      unoptimized: true,
       remotePatterns: [
         {
           protocol: 'https',
@@ -53,4 +54,4 @@ export default async function setup(phase) {
   return nextConfig
 }
 
-module.exports = nextConfig;
+export default nextConfig;
