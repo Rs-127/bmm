@@ -13,7 +13,7 @@
     "studio": "drizzle-kit studio",
     "检测数据库能否连接": "⬇️⬇️⬇️",
     "db:test": "tsx scripts/db-test.mjs",
-    "执行数据库初始化/迁移": "⬇️",
+    "执行数据库初始化/迁移": "⬇️⬇️",
     "db:migrate": "tsx scripts/db-migration.mjs",
     "根据项目中的 schema，更新数据库（忽略 migrations，可能会导致数据丢失）": "⬇️",
     "db:push": "tsx scripts/db-push.mjs",
