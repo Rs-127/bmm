@@ -24,6 +24,7 @@ export default async function setup(phase) {
 
   /** @type {import('next').NextConfig} */
   const nextConfig = {
+    output:'export',
     images: {
       remotePatterns: [
         {
@@ -51,3 +52,5 @@ export default async function setup(phase) {
   }
   return nextConfig
 }
+
+module.exports = nextConfig;
